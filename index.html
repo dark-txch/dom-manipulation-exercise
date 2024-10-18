@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- css links -->
+    <link rel="stylesheet" href="/css/style.css" />
+
+    <!-- favicon -->
+    <link
+      rel="icon"
+      href="./asset/favicon_io/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!--  script  -->
+    <script src="./index.js" defer></script>
+
+    <title>Dom manipulation exercise</title>
+  </head>
+  <body>
+    <main>
+      <article>
+        <!--  navigation part -->
+        <nav>
+          <button id="button1" class="active">Account</button>
+          <button id="button2">Password</button>
+        </nav>
+        <!--  for each navigation section -->
+        <section>
+          <!--  id button1 account -->
+          <div id="account">
+            <h2 class="account__header">Account</h2>
+            <p>
+              Make changes to your account here. Click save when you're done.
+            </p>
+            <form action="#">
+              <!--  name -->
+              <label for="name">Name&#58;</label>
+              <input type="text" name="name" value="minotishima" />
+              <!--  username -->
+              <label for="username">Username&#58;</label>
+              <input type="text" name="username" value="&#64;minotishima" />
+              <button class="submit1">Save changes</button>
+            </form>
+          </div>
+          <!--  id button2 password -->
+          <div id="password" class="disabled">
+            <h2 class="password__header">Password</h2>
+            <p>
+              Change your password here. After saving, you'll be logged out.'
+            </p>
+            <form action="#">
+              <!--  name -->
+              <label for="current password">Current password</label>
+              <input
+                type="password"
+                name="current password"
+                value="xxxxxxxxxxx"
+              />
+              <!--  username -->
+              <label for="new password">New password</label>
+              <input type="password" name="New password" value="xxxxxxxxxxx" />
+              <button class="submit2">Save password</button>
+            </form>
+          </div>
+        </section>
+      </article>
+      <footer>&copy;2024 dark-Teck</footer>
+    </main>
+  </body>
+</html>
