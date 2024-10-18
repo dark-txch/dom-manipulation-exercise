@@ -91,17 +91,20 @@ main {
         flex-direction: column;
 
         .submit1 {
-          width: 45%;
-          margin-top: 20px;
-          border-radius: 8px;
-          padding: 10px 0;
-          cursor: pointer;
-        }
-        .submit2 {
           width: 48%;
           margin-top: 20px;
           border-radius: 8px;
           padding: 10px 0;
+          font-size: 15px;
+          cursor: pointer;
+        }
+        .submit2 {
+          width: 50%;
+          margin-top: 20px;
+          border-radius: 8px;
+          padding: 10px 0;
+          color: black;
+          font-size: 15px;
           cursor: pointer;
         }
         .submit1:hover {
